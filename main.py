@@ -14,10 +14,14 @@ VLC_PATH = "C:/Program Files/VideoLAN/VLC/vlc.exe"
 
 # Set the video stream URL
 VIDEO_URL = []
-VIDEO_URL.append("http://smartersplayer.live:8080/play/MWJq4mvXkXHV8hydmt6MVXB5x--g9v_Nw8WQL8s4riM/ts") #VOLVER
-VIDEO_URL.append("http://smartersplayer.live:8080/play/MWJq4mvXkXHV8hydmt6MVXB5x--g9v_Nw8WQL8s4riM/ts") #VOLVER
-#VIDEO_URL.append("http://smartersplayer.live:8080/play/MWJq4mvXkXHV8hydmt6MVZ3AbWwKCrMgqHUqnuCdiDmp67s_b03PScXxHUDfhj4V/ts")   #(HQ RECTV)
-#VIDEO_URL.append("http://smartersplayer.live:8080/play/MWJq4mvXkXHV8hydmt6MVcslcRGe8fvrKy4kFWKQkQKkppiqRrE2Kt6nK3aRhi0G/ts")   #(FHD RECTV)
+#VIDEO_URL.append("http://smartersplayer.live:8080/play/MWJq4mvXkXHV8hydmt6MVXB5x--g9v_Nw8WQL8s4riM/ts") #(VOLVER smartersplayer)
+#VIDEO_URL.append("http://smartersplayer.live:8080/play/MWJq4mvXkXHV8hydmt6MVXB5x--g9v_Nw8WQL8s4riM/ts") #(VOLVER smartersplayer)
+#VIDEO_URL.append("http://xdplayer.tv:8080/play/MWJq4mvXkXHV8hydmt6MVXB5x--g9v_Nw8WQL8s4riM/ts") #(VOLVER xdplayer)
+VIDEO_URL.append("http://smartersplayer.live:8080/play/MWJq4mvXkXHV8hydmt6MVZ3AbWwKCrMgqHUqnuCdiDmp67s_b03PScXxHUDfhj4V/ts")   #(HQ RECTV)
+VIDEO_URL.append("http://smartersplayer.live:8080/play/MWJq4mvXkXHV8hydmt6MVcslcRGe8fvrKy4kFWKQkQKkppiqRrE2Kt6nK3aRhi0G/ts")   #(FHD RECTV)
+VIDEO_URL.append("http://xdplayer.tv:8080/play/MWJq4mvXkXHV8hydmt6MVZ3AbWwKCrMgqHUqnuCdiDmp67s_b03PScXxHUDfhj4V/ts") #(HQ RECTV xdplayer)
+VIDEO_URL.append("http://xdplayer.tv:8080/play/MWJq4mvXkXHV8hydmt6MVcslcRGe8fvrKy4kFWKQkQKkppiqRrE2Kt6nK3aRhi0G/ts") #(FHD RECTV xdplayer)
+VIDEO_URL.append("http://xdplayer.tv:8080/play/MWJq4mvXkXHV8hydmt6MVT7ZZ0aqOIKmlBsJPU6E87A/ts") #(HD RECTV xdplayer)
 VIDEO_URL_RAND = random.choice(VIDEO_URL)
 # Set the time interval for frame comparison (in seconds)
 FRAME_INTERVAL = 5
